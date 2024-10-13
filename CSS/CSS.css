@@ -1,0 +1,157 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.img-redonda {
+    width: 100px;          /* Cambia el tamaño de la imagen a algo pequeño */
+    height: 100px;         /* Mantén el mismo tamaño en alto y ancho para hacerla circular */
+    border-radius: 50%;    /* Bordes redondeados al 50% para hacer la imagen circular */
+    object-fit: cover;     /* Asegura que la imagen se recorte bien dentro del contenedor redondeado */
+    border: 2px solid #fff; /* Borde para destacar la imagen */
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+p {
+    color: #f5f5f5;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Fondo específico para la página de inicio */
+#inicio {
+    background-image: url('FondoIndex.png'); /* Cambia por tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* Fondo específico para la página de proyectos */
+#proyectos {
+    background-image: url('FondoProyectos.png'); /* Cambia por tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* Fondo específico para la página de contacto */
+#contacto {
+    background-image: url('FondoContacto.png'); /* Cambia por tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 16px;
+}
+
+/* Estilos de las secciones */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+/* Estilos de los proyectos */
+
+#proyectos .proyecto {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#proyectos .proyecto h3 {
+    color: #007bff;
+}
+
+/* Estilos del formulario de contacto */
+form {
+    
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    color: #f5f5f5;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    .section {
+        padding: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}

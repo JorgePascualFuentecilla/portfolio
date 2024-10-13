@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Personal</title>
+    <link rel="stylesheet" href="CSS/CSS.css">
+</head>
+<body>
+    <!-- Encabezado y navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+       <!-- Sección de contacto -->
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <form action="mailto:skynet@skynet.net" method="post">
+            <label for="nombre">Codigo de barras de prisionero</label>
+            <input type="number" id="nombre" name="nombre" required>
+
+            <label for="email">Campo de trabajo</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="mensaje">Ultimas palabras</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Skynet™. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
